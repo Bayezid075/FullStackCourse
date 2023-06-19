@@ -1,6 +1,26 @@
-tr {
-  background: blue;
+body {
+  background: #20273a;
+  color: white;
+  font-family: sans-serif;
 }
+th,
+tr,
+td {
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  /* background: black; */
+}
+
 tr:nth-child(even) {
-  background: rgb(207, 179, 179);
+  background: red;
+}
+tr:nth-child(1) {
+  background: green;
+}
+tr:nth-child(3) {
+  background: rgb(125, 125, 1);
+}
+tr:nth-child(5) {
+  background: purple;
 }

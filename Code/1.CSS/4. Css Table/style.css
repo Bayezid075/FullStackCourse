@@ -9,7 +9,7 @@ td {
   width: 150px;
   padding: 8px 15px;
   text-align: left;
-  background: #313c4e;
+
   color: white;
   font-size: 18px;
   font-family: sans-serif;
@@ -18,5 +18,14 @@ th {
   color: #27a1e3;
 }
 tr:nth-child(2) {
-  background: #2d3447;
+  background: #313c4e;
+}
+tr:nth-child(4) {
+  background: #313c4e;
+}
+tr:nth-child(3) {
+  background: #2b3442;
+}
+tr:nth-child(5) {
+  background: #2b3442;
 }
