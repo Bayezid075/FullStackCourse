@@ -1,0 +1,23 @@
+body {
+  background: #008080;
+  display: flex;
+  justify-content: center;
+}
+.button_container {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.button_container > button {
+  display: block;
+  font-size: 20px;
+  margin: 25px;
+  padding: 10px 25px;
+  border: 1px solid white;
+  cursor: pointer;
+  box-shadow: 5px 5px #daa520;
+}
+button:hover {
+  zoom: 110%;
+}

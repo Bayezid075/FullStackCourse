@@ -1,0 +1,22 @@
+body {
+  background: #20273a;
+  display: flex;
+  justify-content: center;
+}
+tr,
+th,
+td {
+  width: 150px;
+  padding: 8px 15px;
+  text-align: left;
+  background: #313c4e;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+th {
+  color: #27a1e3;
+}
+tr:nth-child(2) {
+  background: #2d3447;
+}

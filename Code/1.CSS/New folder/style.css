@@ -1,0 +1,6 @@
+tr {
+  background: blue;
+}
+tr:nth-child(even) {
+  background: rgb(207, 179, 179);
+}
