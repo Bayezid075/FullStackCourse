@@ -1,0 +1,48 @@
+body {
+}
+.bayezid {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+.primary {
+  background: #0069d9;
+  color: white;
+}
+.scondary {
+  background: #5a6258;
+  color: white;
+}
+.success {
+  background: #218838;
+  color: white;
+}
+.danger {
+  background: #c82333;
+  color: white;
+}
+.warning {
+  background: #e0a800;
+  color: black;
+}
+.info {
+  background: #138496;
+  color: white;
+}
+.dark {
+  background: #23272b;
+  color: white;
+}
+.link {
+  background: white;
+  color: black;
+}
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+button:hover {
+  filter: brightness(80%);
+}
